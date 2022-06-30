@@ -9,7 +9,7 @@
   1. Use any email in the req body and then call a localhost:8000/api/gettoken (post method) to register an email.
   2. After registering a JWT token is responsed back.
   3. Use this token in the Header and previously registered email in the body then call localhost:8000/api/creatcomment (put method) to post a comment.
-  4. The Formate should be like below
+  4. The Formate should be like below - 
     * Header 
       * Key = token
       * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
@@ -31,7 +31,7 @@
         "email": "example@gmail.com"
     }
     
-     5. To get all the user and commnets of each user call localhost:8000/api/getallcomment (get method)
+     6. To get all the user and commnets of each user call localhost:8000/api/getallcomment (get method)
     * Header - 
     * Key = token
     * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
@@ -39,4 +39,4 @@
     * {
         "email": "admin@gmail.com"
     }
-    
+    [ To fetch all user and comments, email has to be "admin@gmail.com" ]
