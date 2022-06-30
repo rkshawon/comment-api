@@ -33,10 +33,10 @@
     
      6. To get all the user and commnets of each user call localhost:8000/api/getallcomment (get method)
     * Header - 
-    * Key = token
-    * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
+      * Key = token
+      * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
     * Body - 
-    * {
+      * {
         "email": "admin@gmail.com"
-    }
+      }
     [ To fetch all user and comments, email has to be "admin@gmail.com" ]
