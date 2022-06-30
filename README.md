@@ -22,7 +22,7 @@
           }
       }
     
-    5. To get all the comment created by a single email call localhost:8000/api/getcomment (get method)
+    5. To get all the comment created by a single user(email) call localhost:8000/api/getcomment (get method)
     # Header - 
       * Key = token
       * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
@@ -31,7 +31,7 @@
         "email": "example@gmail.com"
       }
     
-     6. To get all the user and commnets of each user call localhost:8000/api/getallcomment (get method)
+     6. To get all the user and all commnets of each user call localhost:8000/api/getallcomment/admin (get method)
     # Header - 
       * Key = token
       * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
