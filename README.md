@@ -10,17 +10,17 @@
   2. After registering a JWT token is responsed back.
   3. Use this token in the Header and previously registered email in the body then call localhost:8000/api/creatcomment (put method) to post a comment.
   4. The Formate should be like below
-  * Header 
-    * Key = token
-    * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
-  * Body 
-    * {
-        "email": "example@gmail.com",
-        "comments":{
-            "comment": "first comment",
-            "rating": 4
-        }
-    }
+    * Header 
+      * Key = token
+      * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
+    * Body 
+      * {
+          "email": "example@gmail.com",
+          "comments":{
+              "comment": "first comment",
+              "rating": 4
+          }
+      }
     
     5. To get all the comment created by a single email call localhost:8000/api/getcomment (get method)
     * Header 
