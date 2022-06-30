@@ -1,7 +1,7 @@
 # comment-api
 ## How to run the app
   1. Clone the app.
-  2. Use "npm install" command to download packages.
+  2. Go to "comment-api" directory and use "npm install" command to download packages.
   3. "npm start" or "nodemon start" to run the app in localhost:8000.
  * Note .env file was added intentionally. 
 
