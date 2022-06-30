@@ -21,4 +21,12 @@
             "rating": 4
         }
     }
+    5. To get all the comment created by a single email call localhost:8000/api/getcomment (get method)
+    * Header 
+    * Key = token
+    * Value = Bearer eyJhbGcIsInR5cCIpXVCJ9.eyJlbWmNvbSIsNjU3NzQ3NH0.3F4mLVzZ5X2vIX5HyVi33k
+    * Body 
+    * {
+        "email": "example@gmail.com"
+    }
     
